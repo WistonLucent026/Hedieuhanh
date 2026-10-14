@@ -130,11 +130,11 @@ int TinhLoiTrangOPT(int chuoiTrang[], int soLuongTrang, int soKhungTrang) {
 
 int main() {
     int soKhungTrang;
-    cout << "Nhap so khung trang (Vi du: 3): ";
+    cout << "Nhap so khung trang: ";
     cin >> soKhungTrang;
 
     int soLuongTrang;
-    cout << "Nhap do dai cua chuoi truy cap trang (Vi du: 20): ";
+    cout << "Nhap do dai cua chuoi truy cap trang: ";
     cin >> soLuongTrang;
 
     int chuoiTrang[1000]; // Mảng tĩnh chứa chuỗi truy cập trang
